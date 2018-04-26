@@ -1,10 +1,10 @@
 
-const MongoClient = require('mongodb').MongoClient;
 
 const router = express.Router();
 const ObjectID = require('mongodb').ObjectID;
 const express = require('express');
 
+const MongoClient = require('mongodb').MongoClient;
 // Connect
 /*const connection = (closure) => {
     return MongoClient.connect('mongodb://localhost:27017/database', (err, db) => {
