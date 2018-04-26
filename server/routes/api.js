@@ -20,7 +20,10 @@ const sendError = (err, res) => {
     response.message = typeof err == 'object' ? err.message : err;
     res.json(response);
 };
+MongoClient.connect('mongodb://localhost:27017', function (err, client) {
+  if (err) throw err;
 
+  var db = client.db('database');
 // Response handling
 let response = {
  
@@ -28,10 +31,7 @@ let response = {
    
 };
 
-MongoClient.connect('mongodb://localhost:27017', function (err, client) {
-  if (err) throw err;
 
-  var db = client.db('database');
 
 // Get project
 router.get('/project', (req, res) => {
