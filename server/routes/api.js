@@ -5,14 +5,6 @@ const ObjectID = require('mongodb').ObjectID;
 const express = require('express');
 
 const MongoClient = require('mongodb').MongoClient;
-// Connect
-/*const connection = (closure) => {
-    return MongoClient.connect('mongodb://localhost:27017/database', (err, db) => {
-        if (err) return console.log(err);
-
-        closure(db);
-    });
-};*/
 
 // Error handling
 const sendError = (err, res) => {
