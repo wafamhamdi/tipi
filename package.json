@@ -30,7 +30,7 @@
     "feedback-to-gitlab": "^1.0.3",
     "git-log": "0.0.1",
     "git-log-to-json": "^1.1.1",
-    "gitlog": "^3.1.2",
+    "gitlog": "^4.0.4",
     "kafka-node": "^2.5.0",
     "kafka-rest": "0.0.5",
     "mongodb": "^3.0.5",
