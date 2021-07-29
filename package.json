@@ -31,7 +31,7 @@
     "git-log": "0.0.1",
     "git-log-to-json": "^1.1.1",
     "gitlog": "^3.1.2",
-    "kafka-node": "^2.5.0",
+    "kafka-node": "^4.0.0",
     "kafka-rest": "0.0.5",
     "mongodb": "^3.0.5",
     "node-gitlab-webhook": "^1.0.5",
